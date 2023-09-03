@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="@string/app_name">
+        <meta-data
+            android:name="xposedmodule" android:value="true" />
+        <meta-data
+            android:name="xposedscope" android:resource="@array/xposed_scope" />
+        <meta-data
+            android:name="xposeddescription" android:value="解决MIUI14小窗和工作台最大数量限制" />
+        <meta-data
+            android:name="xposedminversion" android:value="82" />
+    </application>
+</manifest>
